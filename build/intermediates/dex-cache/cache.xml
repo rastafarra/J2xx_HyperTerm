@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/denis/prj/J2xxHyperTerm/app/libs/d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="549d88cce99830dc2ae951a13d5a8b897362351b">
+        <dex dex="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/2/d2xx_9516656876bc6105ddc972858cab8f4de93bde50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19dd2ea59daeff7bd44df8446b128a65a2d3f88d">
+        <dex dex="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d36fe30de79e552fdc50da9e35727b5ad0d4d396/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf7314cf114793b6c783a25ee41d0661fde83b98">
+        <dex dex="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5e0339e0b1e29e9eaf9fc03db0dd2338ea4f1350/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/denis/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_9fba1d7e2100b8a1285a41e864f6e59633ea7d8f/classes.dex" />
+    </item>
+
+</items>

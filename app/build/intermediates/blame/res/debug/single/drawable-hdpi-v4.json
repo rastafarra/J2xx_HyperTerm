@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/denis/prj/J2xxHyperTerm/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_pattern_2.xml",
+        "source": "/home/denis/prj/J2xxHyperTerm/app/src/main/res/drawable-hdpi/button_pattern_2.xml"
+    },
+    {
+        "merged": "/home/denis/prj/J2xxHyperTerm/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/button_pattern.xml",
+        "source": "/home/denis/prj/J2xxHyperTerm/app/src/main/res/drawable-hdpi/button_pattern.xml"
+    }
+]

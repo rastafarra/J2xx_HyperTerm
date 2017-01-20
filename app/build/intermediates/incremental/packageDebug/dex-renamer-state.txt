@@ -1,0 +1,7 @@
+#Fri Jan 20 12:37:31 YEKT 2017
+base.0=/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d36fe30de79e552fdc50da9e35727b5ad0d4d396
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5e0339e0b1e29e9eaf9fc03db0dd2338ea4f1350/classes.dex
+base.1=/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5e0339e0b1e29e9eaf9fc03db0dd2338ea4f1350
+file.0=/home/denis/prj/J2xxHyperTerm/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d36fe30de79e552fdc50da9e35727b5ad0d4d396/classes.dex

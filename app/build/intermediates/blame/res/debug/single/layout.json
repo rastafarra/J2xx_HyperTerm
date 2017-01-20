@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/denis/prj/J2xxHyperTerm/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/denis/prj/J2xxHyperTerm/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/denis/prj/J2xxHyperTerm/app/build/intermediates/res/merged/debug/layout/my_spinner_textview.xml",
+        "source": "/home/denis/prj/J2xxHyperTerm/app/src/main/res/layout/my_spinner_textview.xml"
+    },
+    {
+        "merged": "/home/denis/prj/J2xxHyperTerm/app/build/intermediates/res/merged/debug/layout/file_name_dialog.xml",
+        "source": "/home/denis/prj/J2xxHyperTerm/app/src/main/res/layout/file_name_dialog.xml"
+    }
+]
