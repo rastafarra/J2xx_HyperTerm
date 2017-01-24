@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FTDI UART Terminal v1.0</string>
+    <string name="app_name">СТН Терминал</string>
     <string name="baudRate">Baud rate</string>    
 	<string-array name="baud_rate_1">        
 		<item>300</item>        

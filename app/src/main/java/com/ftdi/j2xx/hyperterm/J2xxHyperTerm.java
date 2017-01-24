@@ -444,7 +444,7 @@ public class J2xxHyperTerm extends Activity {
         readText = (TextView) findViewById(R.id.ReadValues);
         writeText = (EditText) findViewById(R.id.WriteValues);
 
-        settingButton = (Button) findViewById(R.id.SettingButton);
+//        settingButton = (Button) findViewById(R.id.SettingButton);
         logButton = (Button) findViewById(R.id.LogButton);
         sendButton = (Button) findViewById(R.id.SendButton);
         configButton = (Button) findViewById(R.id.ConfigButton);
@@ -524,14 +524,16 @@ public class J2xxHyperTerm extends Activity {
         portSpinner.setOnItemSelectedListener(new MyOnPortSelectedListener());
 
         // Implementation of buttons
-        settingButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                if (DeviceStatus.DEV_CONFIG == checkDevice()) {
-                    resetStatusData();
-                    toggleMenuKey();
-                }
-            }
-        });
+//        settingButton.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                if (DeviceStatus.DEV_CONFIG == checkDevice()) {
+//                    String str = "\n\r";
+//                    sendData(str.length(), str.getBytes());
+////                    resetStatusData();
+////                    toggleMenuKey();
+//                }
+//            }
+//        });
 
         configButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -589,6 +591,11 @@ public class J2xxHyperTerm extends Activity {
                     finish();
                 }
 
+                if (writeText.length() == 0) {
+                    String str = "\n\r";
+                    sendData(str.length(), str.getBytes());
+                }
+
                 // check whether there is some data
                 if (writeText.length() != 0x00) {
                     // check format
@@ -600,13 +607,15 @@ public class J2xxHyperTerm extends Activity {
                             appendData(tmp);
                         }
 
-                        int numBytes = writeText.length();
+                        String str = writeText.getText().toString() + "\n\r";
 
-                        for (int i = 0; i < numBytes; i++) {
-                            writeBuffer[i] = (byte) (writeText.getText().charAt(i));
-                        }
+                        int numBytes = str.length();
 
-                        sendData(numBytes, writeBuffer);
+//                        for (int i = 0; i < numBytes; i++) {
+//                            writeBuffer[i] = (byte) (writeText.getText().charAt(i));
+//                        }
+
+                        sendData(str.length(), str.getBytes());
                         writeText.setText("");
                     } else  // hexadecimal format
                     {
@@ -820,7 +829,7 @@ public class J2xxHyperTerm extends Activity {
         myMenu.add(0, MENU_SAVE_CONTENT_DATA, 0, "Save Content Data");
         myMenu.add(0, MENU_CLEAN_SCREEN, 0, "Clean Screen");
         myMenu.add(0, MENU_ECHO, 0, "Echo - On");
-        myMenu.add(0, MENU_HELP, 0, "Online Help");
+//        myMenu.add(0, MENU_HELP, 0, "Online Help");
         return super.onCreateOptionsMenu(myMenu);
     }
 
